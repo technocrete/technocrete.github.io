@@ -101,7 +101,7 @@ p, address {
       padding: 0 20px; }
 
   .content section:nth-child(even) .flex {
-    flex-direction: row-reverse; } }
+    flex-direction: row; } }
 @media (min-width: 450px) {
   .flex {
     display: -webkit-box;
@@ -117,7 +117,7 @@ p, address {
       padding: 0 20px; }
 
   .content section:nth-child(even) .flex {
-    flex-direction: row-reverse; } }
+    flex-direction: row; } }
 .container, .text-container {
   margin: 0 auto;
   position: relative;
