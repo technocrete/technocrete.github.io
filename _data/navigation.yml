@@ -1,0 +1,12 @@
+- name: Equipment
+  link: /equip
+  new_window: false
+  highlight: false
+- name: Our Team
+  link: /about
+  new_window: false
+  highlight: false
+- name: Contact Us
+  link: /contact
+  new_window: false
+  highlight: true
