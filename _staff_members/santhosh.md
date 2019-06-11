@@ -1,4 +1,4 @@
 ---
-name: Santhosh Kumar
-image_path: \images\team\santhosh.jpg
+name: Sandeep Kumar
+image_path: \images\team\sandeep.png
 ---
