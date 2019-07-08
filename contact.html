@@ -13,20 +13,15 @@ map:
 
 
 <div class="contact-box">
-	<form action="{{ site.baseurl }}/contact-success/" method="post" class="contact-form">
-		<input type="hidden" name="_to" value="support@example.com" />
-		<input type="text" name="_gotcha" style="display: none;">
 
+	<form action="https://formspree.io/rahul.technocrete@gmail.com" method="POST" class="contact-form">
 		<label for="name">Full Name</label>
-		<input type="text" name="name" id="name" placeholder="Enter your name..." />
-
-		<label for="email">Email Address</label>
-		<input type="email" name="email" id="email" placeholder="Enter your email..." required />
-
-		<label for="message">Message</label>
-		<textarea name="message" id="message" placeholder="Enter your message..."></textarea>
-
-		<input type="submit" value="Send Message" />
+  		<input type="text" name="name" placeholder="Enter your name..." />
+  		<label for="email">Email Address</label>
+  		<input type="email" name="_replyto" placeholder="Enter your email..." required />
+  		<label for="message">Message</label>
+  		<textarea name="message" type="message" placeholder="Enter your message..."></textarea>
+  		<input type="submit" value="Send" />
 	</form>
 
 	<div class="contact-details">
